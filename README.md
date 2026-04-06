@@ -15,7 +15,7 @@ All commands customizable via `config.yaml`.
 
 **Known Quirks:**
 
-- bot can will accept room-invitations automatically
+- bot will accept room-invitations automatically
 - bot has access to all media files within joined rooms (and thus can theoretically leak data to other users via event_id bruteforcing)
 - bot will only process the last of multiple messages received at the same time (e.g. startup after some downtime)
 - only media files received while the bot is running can be processed
